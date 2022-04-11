@@ -1,0 +1,34 @@
+[props/obs-input]
+owner = mpb
+version = 8.2.5
+modtime = 1649643188.613284000
+
+[props/source%3A%3A...splunk-obs-connector%2A.log%2A]
+owner = mpb
+version = 8.2.5
+modtime = 1649643188.900269000
+
+[props/source%3A%3A...splunk_obs_connector%2A.log%2A]
+owner = mpb
+version = 8.2.5
+modtime = 1649643189.142888000
+
+[passwords/credential%3A__REST_CREDENTIAL__%23splunk-obs-connector%23data%2Finputs%2Fobs_input%3Ampb%60%60splunk_cred_sep%60%601%3A]
+owner = mpb
+version = 8.2.5
+modtime = 1649644382.931183000
+
+[passwords/credential%3A__REST_CREDENTIAL__%23splunk-obs-connector%23data%2Finputs%2Fobs_input%3Ampb%60%60splunk_cred_sep%60%602%3A]
+owner = mpb
+version = 8.2.5
+modtime = 1649644382.939414000
+
+[inputs/obs_input%3A%2F%2Fmpb]
+owner = mpb
+version = 8.2.5
+modtime = 1649644383.559119000
+
+[collections/splunk_obs_connector_checkpointer]
+owner = splunk-system-user
+version = 8.2.5
+modtime = 1649644385.324620000
