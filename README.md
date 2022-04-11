@@ -1,5 +1,5 @@
 # Splunk 对接华为云 OBS 插件
-[简体中文](https://splunkbase.splunk.com/app/2962/)|[English](https://splunkbase.splunk.com/app/2962/)
+简体中文|[English](https://github.com/mpb159753/Splunk-OBS-Connector/README-EN.md)
 
 ## 安装方法
 
@@ -10,7 +10,7 @@
 
 
 ### 通过 Splunkbase 安装
-1. 通过 [Splunk OBS Connector](https://splunkbase.splunk.com/app/2962/) 下载安装包
+1. 通过 [Splunk OBS Connector](https://splunkbase.splunk.com/app/24484/) 下载安装包
 2. 进入 Splunk 的应用安装，选择从文件安装
 3. 选择步骤 1 中下载的安装包
 
@@ -28,17 +28,17 @@
 
 ### 配置参数说明
 
-|       参数名       | 说明                                                                                                         | 必填  |     默认值     |
-|:---------------:|:-----------------------------------------------------------------------------------------------------------|:---:|:-----------:|
-|    Endpoint     | 桶所对应的 OBS Endpoint，如果不一致会无法访问桶                                                                             |  Y  |      无      |
-|       AK        | 账号的 AccessKey, 账号需要有 ListBucket 权限和 GetObject 权限                                                           |  Y  |      无      |
-|       SK        | 账号的 SecretKey                                                                                              |  Y  |      无      |
-|     Bucket      | 桶名                                                                                                         |  Y  |      无      |
-|     Prefix      | 目标对象的前缀, 在指定该值后，将仅列举以此前缀开头的对象                                                                              |  N  |      无      |
-|    Part Size    | 获取对象时的分块大小，单位为 bytes, 默认值 4M                                                                     |  N  | 4194304(4M) |
-|   Retry Times   | 获取对象内容失败时的重试次数                                                                                             |  N  |      3      |
-|   Using HTTPS   | 是否使用 HTTPS                                                                                                 |  N  |    True     |
-| Unpack GZ File  | 是否自动解压 `.gz` 结尾的文件, 设置为 False 时将无法识别 `.gz` 文件的内容                                                           |  N  |    True     |
-| Enable OBS Log  | 是否开启 OBS SDK 的日志。如若开启该选项则必须指定日志配置文件的路径                                                                     |  N  |    False    |
+|       参数名       | 说明                                                                                                           | 必填  |     默认值     |
+|:---------------:|:-------------------------------------------------------------------------------------------------------------|:---:|:-----------:|
+|    Endpoint     | 桶所对应的 OBS Endpoint，如果不一致会无法访问桶                                                                               |  Y  |      无      |
+|       AK        | 账号的 AccessKey, 账号需要有 ListBucket 权限和 GetObject 权限                                                             |  Y  |      无      |
+|       SK        | 账号的 SecretKey                                                                                                |  Y  |      无      |
+|     Bucket      | 桶名                                                                                                           |  Y  |      无      |
+|     Prefix      | 目标对象的前缀, 在指定该值后，将仅列举以此前缀开头的对象                                                                                |  N  |      无      |
+|    Part Size    | 获取对象时的分块大小，单位为 bytes, 默认值 4M                                                                                 |  N  | 4194304(4M) |
+|   Retry Times   | 获取对象内容失败时的重试次数                                                                                               |  N  |      3      |
+|   Using HTTPS   | 是否使用 HTTPS                                                                                                   |  N  |    True     |
+| Unpack GZ File  | 是否自动解压 `.gz` 结尾的文件, 设置为 False 时将无法识别 `.gz` 文件的内容                                                             |  N  |    True     |
+| Enable OBS Log  | 是否开启 OBS SDK 的日志。如若开启该选项则必须指定日志配置文件的路径                                                                       |  N  |    False    |
 | Log Config Path | 日志配置文件的路径，可以从  [Github](https://github.com/huaweicloud/huaweicloud-sdk-python-obs/blob/master/log.conf) 获取模板 |  N  |      无      |
 
