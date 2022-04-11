@@ -1,5 +1,5 @@
 # Interconnect Splunk with HUAWEI CLOUD OBS Plug-in
-[简体中文](https://github.com/mpb159753/Splunk-OBS-Connector/README.md) |English
+[简体中文](https://github.com/mpb159753/Splunk-OBS-Connector/blob/master/README.md) |English
 
 ## Installation Method
 

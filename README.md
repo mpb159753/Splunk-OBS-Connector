@@ -1,5 +1,5 @@
 # Splunk 对接华为云 OBS 插件
-简体中文|[English](https://github.com/mpb159753/Splunk-OBS-Connector/README-EN.md)
+简体中文|[English](https://github.com/mpb159753/Splunk-OBS-Connector/blob/master/README-EN.md)
 
 ## 安装方法
 
