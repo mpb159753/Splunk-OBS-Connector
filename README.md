@@ -5,7 +5,7 @@
 
 ### 从 Github 下载源码安装
 1. 安装 [Splunk Add-on Builder](https://splunkbase.splunk.com/app/2962/)
-2. 从 Github 下载 OBS Connector, `https://github.com/mpb159753/Splunk-OBS-Connector.git`
+2. 从 Github 下载 OBS Connector, `https://github.com/mpb159753/Splunk-OBS-Connector/releases`
 3. 进入 Splunk Add-on Builder， 点击 `Import Project` 导入压缩包
 
 

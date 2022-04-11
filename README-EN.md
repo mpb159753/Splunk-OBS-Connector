@@ -5,7 +5,7 @@
 
 ### Download the source code from Github and install it.
 1. Installing the [Splunk Add-on Builder](https://splunkbase.splunk.com/app/2962/)
-2. Download `OBS Connector` from Github `https://github.com/mpb159753/Splunk-OBS-Connector.git`
+2. Download `OBS Connector` from Github `https://github.com/mpb159753/Splunk-OBS-Connector/releases`
 3. Choose Splunk Add-on Builder and click `Import Project` to import the compressed package.
 
 
